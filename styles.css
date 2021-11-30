@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+h1{
+    font-family: Praise;
+    font-weight: 100;
+    font-size: 3rem;
+}
+header{
+    background-color: rgb(126, 126, 126);
+    display: flex;
+    align-items: center;
+}
+header h1{
+    color: rgb(230, 217, 47);
+    margin: 1rem;
+}
+header ul {
+    display: flex;
+    padding-left: 40rem;
+}
+header ul li{
+    list-style: none; 
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2.3rem;
+    font-size: 1.5rem;
+}
+.cars{
+    display: flex;
+}
+.cars div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cars div img{
+    height: 10rem;
+}
+
