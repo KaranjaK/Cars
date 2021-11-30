@@ -32,6 +32,7 @@ header ul li a{
 }
 .cars{
     display: flex;
+    height: 34.5rem;
 }
 .cars div{
     margin: 2rem;
@@ -42,8 +43,18 @@ header ul li a{
     border: none;
     background-color: rgb(126, 126, 126);
     color: white;
+    height: 17rem;
 }
 .cars div img{
     height: 10rem;
+    padding-bottom: 1rem;
+}
+footer{
+    background-color: rgb(126, 126, 126);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 50%;
+    color: white;
 }
 
